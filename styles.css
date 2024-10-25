@@ -108,11 +108,14 @@ header img{
 
 #imgModal{
     width: 300px;
+    height: 100%;
+    object-fit: contain;
 }
 
 #containerImg{
     width: 20%;
     margin-left: 70px;
+    height: 100%;
 }
 
 .close{
