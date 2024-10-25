@@ -108,11 +108,14 @@ header img{
 
 #imgModal{
     width: 300px;
-    height: 100%;
+    height: 80%;
     object-fit: contain;
 }
 
 #containerImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20%;
     margin-left: 70px;
     height: 100%;
@@ -120,7 +123,7 @@ header img{
 
 .close{
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 20px;
     padding: 3px;
     padding-bottom: 0px;
